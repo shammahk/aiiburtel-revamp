@@ -270,10 +270,11 @@ content: "";
 
 /*product*/
 .product{
-  background: url("../assets/icons/hero\ bg.png");
+  background-image: url("../assets/icons/hero\ bg.png");
 }
 
 .product > :not(div) {
+  transition: .3s ease;
   opacity: 0;
 }
 .product:hover > :not(div) {
