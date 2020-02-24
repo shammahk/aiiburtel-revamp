@@ -1,0 +1,277 @@
+html {
+  font-size: 16px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'gt-super';
+  src: url("../assets/fonts/gt-super-display-medium.woff2");
+}
+
+@font-face {
+  font-family: 'quicksand-light';
+  src: url("../assets/fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+  font-family: 'quicksand-regular';
+  src: url("../assets/fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'quicksand-medium';
+  src: url("../assets/fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'quicksand-semi';
+  src: url("../assets/fonts/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: 'quicksand-bold';
+  src: url("../assets/fonts/Quicksand-Bold.ttf");
+}
+
+.f-gt {
+  font-family: 'gt-super';
+}
+
+.f-light {
+  font-family: 'quicksand-light';
+}
+
+.f-regular {
+  font-family: 'quicksand-regular';
+}
+
+.f-medium {
+  font-family: 'quicksand-medium';
+}
+
+.f-semi {
+  font-family: 'quicksand-semi';
+}
+
+.f-bold {
+  font-family: 'quicksand-bold';
+}
+
+p {
+  font-family: 'quicksand-regular';
+}
+
+/* Colours */
+
+.c-black {
+  color: #333333;
+}
+
+.c-white {
+  color: #FFFFFF;
+}
+
+.c-gold {
+  color: #EDBA3A;
+}
+
+.c-gray {
+  color: #DDDDDD;
+}
+
+.bg-white {
+  background: #FFFFFF;
+}
+
+.bg-black {
+  background: #333333;
+}
+
+.bg-light {
+  background: #DDDDDD;
+}
+
+.bg-light-half {
+  background-image: linear-gradient(to bottom,   #DDDDDD 50%,  #ffffff 50%) ;
+}
+
+.bg-gold {
+  background: #EDBA3A;
+}
+
+.bg-dark {
+  background: #C9C9C9;
+}
+
+* {
+  color: #333333;
+}
+
+/* SIzing */
+h1 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-family: 'gt-super';
+}
+
+.sm-text {
+  font-size: 1em;
+}
+
+.sales {
+  font-size: 1.12em;
+}
+
+.mid-text {
+  font-size: 1.5em;
+}
+
+
+/* components */
+
+.cta-btn {
+  background: #333333;
+  color: #EDBA3A;
+  padding: 15px 30px;
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+  text-transform: capitalize;
+}
+
+header .cta-btn {
+  background: #333333;
+  color: #EDBA3A;
+  padding: 15px 20px;
+  text-decoration: none; 
+  transition: all 0.3s ease; 
+  text-transform: capitalize;
+}
+
+.cta-btn:hover {
+  background: #EDBA3A;
+  color: #333333;
+  text-decoration: none;  
+
+}
+
+.nav-item a.nav-link {
+  color: #FFFFFF;
+}
+
+.nav-item a.nav-link:hover {
+  color: #EDBA3A;
+}
+
+.heading {
+  width: fit-content;
+  background: #ffffff;
+  padding: 30px 60px 30px 100px;
+}
+
+.heading.ml-auto {
+  padding: 30px 100px 30px 60px;
+}
+
+.line {
+  height: 3px;
+  width: 50px;
+  background: #EDBA3A;
+  margin-right: 20px;
+}
+
+.service-card {
+  border: 1px solid #7070703D;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-2em);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.pg-link {
+  text-decoration: none;
+  color: #333333;
+  background-image: linear-gradient(to bottom, #EDBA3A29, #EDBA3A99);
+  padding: 2px 3px;
+  border-bottom: 1px solid #333333;
+}
+
+.pg-link:hover {
+  text-decoration: none;
+  background: #EDBA3A99;
+  color: #333333;
+}
+
+.icons {
+  height: 60px;
+}
+/* Custom Styling */
+header {
+  transition: all 0.3s ease;
+}
+
+header.scrolled {
+  background: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+header.scrolled .nav-item a.nav-link {
+  color: #333333;
+}
+
+.hero-area{
+  background: url('../assets/icons/hero\ bg.png');
+  background-size: 50% 100% ;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.quote blockquote {
+  position: relative;
+  border-left: 3px solid #EDBA3A;
+}
+
+.quote blockquote p {
+  font-size: 1.5em;
+}
+
+.quote blockquote p:before {
+  content: url("../assets/quote\ sign.png");
+  color: #c9c9c9;
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  bottom: -.2em;    
+  text-shadow: none;
+  z-index: -300;
+
+}
+
+.title h3 {
+  overflow :hidden;
+  text-align: center;
+  line-height: 1.6em;
+  background-color: #ffffff;
+}
+
+.title h3:before {
+display: block;
+float: left;
+margin-top: .8em; /* half the line-height */
+border-top: 2px solid #EDBA3A;
+width: 2.5em;
+content: "";
+}
+
+/* Media Queries */
+@media (min-width: 1400px) {
+  .container {
+      max-width: 1300px !important;
+  }
+
+}
