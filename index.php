@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap css  -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!-- Slick css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <!-- main css file  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title> Aiiburtel revamping</title>
@@ -231,8 +234,72 @@
      
   </section>
 
+  <section class="py-5">
+      <div class=" bg-light ">
+        <div class="heading d-flex align-items-center mb-5 ">
+            <div class="line"></div>
+            <h3 >We Are Working With</h3>
+        </div>
+        <div class="pb-3">
+          <div class="py-4 row slider">
+            <div class="client-holder col text-center">
+              <img src="assets/images/go-shop.png" alt="GoShop" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/event-venues.png" alt="EventVenues" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/CENTER-LOGO.png" alt="CenterPrices" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/goExpress.png" alt="GoExpress" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/gosourcelogo-new.png" alt="GoSource" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/graphe-academy.png" alt="GrapheAcademy" class="img-fluid mx-auto">
+            </div>
+            <div class="client-holder col text-center">
+              <img src="assets/images/payFast.png" alt="PayFast" class="img-fluid mx-auto">
+            </div>
+          </div>
+          <div class="slider-holder  mb-4">
+  
+            <div class="py-4 row btm-slider ">
+              <div class="client-holder col text-center">
+                <img src="assets/images/go-shop.png" alt="GoShop" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/event-venues.png" alt="EventVenues" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/CENTER-LOGO.png" alt="CenterPrices" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/goExpress.png" alt="GoExpress" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/gosourcelogo-new.png" alt="GoSource" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/graphe-academy.png" alt="GrapheAcademy" class="img-fluid mx-auto">
+              </div>
+              <div class="client-holder col text-center">
+                <img src="assets/images/payFast.png" alt="PayFast" class="img-fluid mx-auto">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+     
+  </section>
+
     <!-- jquery .js -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <!-- bootstrap .js -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
