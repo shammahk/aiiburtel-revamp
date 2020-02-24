@@ -68,66 +68,64 @@
               <div class="line"></div>
               <h3 >What We Do</h3>
           </div>
-          <div class="row mx-0 justify-content-center">
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
+          <div class="d-flex justify-content-center">
+            <div class="row mx-0 justify-content-center">
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class=" service-card bg-white pt-5 pb-5 px-4">
+                  <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+                  <h5 class="title mb-3">
+                    System Automation
+                  </h5>
+                  <p class="mb-5">
+                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                  </p>
+                    <a href="" class="cta-btn ">
+                      Bring Idea To Life
+                    </a>
+                </div>
+  
+              </div>
+              
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class=" service-card bg-white pt-5 pb-5 px-4">
+                  <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
+                  <h5 class="title mb-3">
+                    Machine Learning
+                  </h5>
+                  <p class="mb-5">
+                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                  </p>
+                    <a href="" class="cta-btn ">
+                      Bring Idea To Life
+                    </a>
+                </div>
+  
+              </div>
+              
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class=" service-card bg-white pt-5 pb-5 px-4">
+                  <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
+                  <h5 class="title mb-3">
+                    Artificial Intelligence
+                  </h5>
+                  <p class="mb-5">
+                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                  </p>
+                    <a href="" class="cta-btn">
+                      Bring Idea To Life
+                    </a>
+                </div>
+  
+              </div>
+              
+              <div class="col-md-6 col-lg-12 mb-4 d-flex align-items-center justify-content-center">
+                <div class="d-flex justify-content-center mt-2">
+                  <a href="" class="pg-link">
+                    See All Sevices
                   </a>
                 </div>
               </div>
-
             </div>
-            
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  Machine Learning
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  Artificial Intelligence
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            
-          </div>
-          <div class="d-flex justify-content-center mt-2">
-            <a href="" class="pg-link">
-              See All Sevices
-            </a>
           </div>
         </div>
           
@@ -136,75 +134,101 @@
 
   <section class="py-5">
       <div class="row m-0  bg-light-half ">
-        <div class="">
-          <div class="heading d-flex align-items-center mb-5 ml-auto">
-              <div class="line"></div>
-              <h3 >Some Of Our Products</h3>
-          </div>
-          <div class="row mx-0 justify-content-center">
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  Machine Learning
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            
-            <div class="col-md-6 col-lg-3 mb-3">
-              <div class=" service-card bg-white pt-5 pb-5 px-4">
-                <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
-                <h5 class="title mb-3">
-                  Artificial Intelligence
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            
-          </div>
-          <div class="d-flex justify-content-center mt-2">
-            <a href="" class="pg-link">
-              See All Sevices
-            </a>
-          </div>
+        <div class="heading d-flex align-items-center mb-5 ml-auto">
+            <div class="line"></div>
+            <h3 >Some Of Our Products</h3>
         </div>
+        <div class="container-fluid row mx-0 justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class=" service-card bg-white pt-5 pb-5 px-4">
+              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+              <h5 class="title mb-3">
+                System Automation
+              </h5>
+              <p class="mb-5">
+                Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+              </p>
+              <div>
+                <a href="" class="cta-btn ">
+                  Bring Idea To Life
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class=" service-card bg-white pt-5 pb-5 px-4">
+              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+              <h5 class="title mb-3">
+                System Automation
+              </h5>
+              <p class="mb-5">
+                Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+              </p>
+              <div>
+                <a href="" class="cta-btn ">
+                  Bring Idea To Life
+                </a>
+              </div>
+            </div>
+
+          </div>
           
+          
+          
+          <div class="col-md-6 col-lg-4 mb-4">
+            
+          </div>
+          
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class=" service-card bg-white pt-5 pb-5 px-4">
+              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+              <h5 class="title mb-3">
+                System Automation
+              </h5>
+              <p class="mb-5">
+                Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+              </p>
+              <div>
+                <a href="" class="cta-btn ">
+                  Bring Idea To Life
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class=" service-card bg-white pt-5 pb-5 px-4">
+              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+              <h5 class="title mb-3">
+                System Automation
+              </h5>
+              <p class="mb-5">
+                Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+              </p>
+              <div>
+                <a href="" class="cta-btn ">
+                  Bring Idea To Life
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
+            <div class="d-flex justify-content-center mt-2">
+              <a href="" class="pg-link">
+                See Full Products Catalog
+              </a>
+            </div>
+          </div>
+          
+        </div>
+        
       </div>
+     
   </section>
 
     <!-- jquery .js -->
