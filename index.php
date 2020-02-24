@@ -132,7 +132,7 @@
       </div>
   </section>
 
-  <section class="py-5">
+  <section class=" py-5">
       <div class="row m-0  bg-light-half ">
         <div class="heading d-flex align-items-center mb-5 ml-auto">
             <div class="line"></div>
@@ -140,9 +140,9 @@
         </div>
         <div class="container-fluid row mx-0 justify-content-center">
           <div class="col-md-6 col-lg-4 mb-4">
-            <div class=" service-card bg-white pt-5 pb-5 px-4">
-              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
-              <h5 class="title mb-3">
+            <div class=" service-card product bg-white d-flex flex-column justify-content-end pt-5 pb-5 px-4">
+             
+              <h5 class="title  mb-3">
                 System Automation
               </h5>
               <p class="mb-5">
@@ -158,8 +158,8 @@
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4">
-            <div class=" service-card bg-white pt-5 pb-5 px-4">
-              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+            <div class=" service-card product bg-white   pt-5 pb-5 px-4">
+              
               <h5 class="title mb-3">
                 System Automation
               </h5>
@@ -182,8 +182,8 @@
           </div>
           
           <div class="col-md-6 col-lg-4 mb-4">
-            <div class=" service-card bg-white pt-5 pb-5 px-4">
-              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+            <div class=" service-card product bg-white d-flex flex-column justify-content-end pt-5 pb-5 px-4">
+              
               <h5 class="title mb-3">
                 System Automation
               </h5>
@@ -200,8 +200,8 @@
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4">
-            <div class=" service-card bg-white pt-5 pb-5 px-4">
-              <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+            <div class=" service-card product bg-white pt-5 pb-5 px-4">
+              
               <h5 class="title mb-3">
                 System Automation
               </h5>
