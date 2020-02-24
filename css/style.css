@@ -280,6 +280,29 @@ width: 2.5em;
 content: "";
 }
 
+/*product*/
+.product{
+  background-image: url("../assets/icons/hero\ bg.png");
+}
+
+.product > :not(div) {
+  transition: .3s ease;
+  opacity: 0;
+}
+.product:hover > :not(div) {
+  opacity: 1;
+}
+
+.product:hover{
+  background-image: linear-gradient(to bottom, 
+  rgba(255,255,255,0.6), 
+  rgba(255,255,255,.6)
+  ),
+  url("../assets/icons/hero\ bg.png");
+}
+
+/*product*/
+
 /* Media Queries */
 /* Mobile */
 @media (max-width: 450px) {
