@@ -180,7 +180,7 @@
           
           
           
-          <div class="col-md-6 col-lg-4 mb-4">
+          <div class="col-sm-0 col-md-0 col-lg-4 mb-4">
             
           </div>
           
