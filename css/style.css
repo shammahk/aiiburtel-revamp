@@ -88,7 +88,7 @@ p {
 }
 
 .bg-light {
-  background: #DDDDDD !important;
+  background-color: #DDDDDD !important;
 }
 
 .bg-light-half {
@@ -160,6 +160,14 @@ header .cta-btn {
   color: #FFFFFF;
 }
 
+.footer .nav-item a.nav-link {
+  color: #333333 ;
+}
+
+.footer .nav-item a.nav-link:hover {
+  color: #ffffff ;
+}
+
 .nav-item a.nav-link:hover {
   color: #EDBA3A;
 }
@@ -222,6 +230,10 @@ header .cta-btn {
   height: 60px;
 }
 /* Custom Styling */
+.nav-item .nav-link {
+  position: relative;
+}
+
 header {
   transition: all 0.3s ease;
 }
@@ -233,6 +245,26 @@ header.scrolled {
 
 header.scrolled .nav-item a.nav-link {
   color: #333333;
+}
+
+header.scrolled .nav-item a.nav-link:hover {
+  color: #EDBA3A;
+}
+
+header .nav-item a.nav-link:after {    
+  background: #EDBA3A;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+header .nav-item a.nav-link:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 .hero-area{
@@ -300,8 +332,13 @@ content: "";
   ),
   url("../assets/icons/hero\ bg.png");
 }
+/* end product*/
 
-/*product*/
+/* footer area*/
+.footer-left{
+  border-right: 1px solid #33333345;
+}
+/* end footer  area*/
 
 /* Media Queries */
 /* Mobile */

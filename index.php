@@ -307,7 +307,7 @@
                       <h3 > Why Us?</h3>
                     </div>
                     <!--  -->
-                    <div class="col-12 ">
+                    <div class="col-12 px-0 ">
                         <div class="media">
                             <img src="assets/icons/delicate_team.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body pt-3">
@@ -316,7 +316,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 ">
+                    <div class="col-12 px-0 ">
                         <div class="media">
                             <img src="assets/icons/update_technology.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body pt-4">
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12  ">
+                    <div class="col-12 px-0  ">
                         <div class="media">
                             <img src="assets/icons/delivery_time.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body pt-3">
@@ -334,7 +334,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 ">
+                    <div class="col-12 px-0 ">
                         <div class="media">
                             <img src="assets/icons/quality_assurance.png" class="align-self-center mr-3" alt="...">
                             <div class="media-body pt-3">
@@ -384,15 +384,73 @@
 
                         <textarea class="form-control bg-light" placeholder="Project Description*" name="" id="" cols="30" rows="8"></textarea>
                     </form> 
-                    <div class="my-4"> 
+                    <div class="my-4 d-flex justify-content-center"> 
                       <a href="" class="cta-btn ">
-                        Bring Idea To Life
+                        Get Quote
                       </a>
                     </div>
                 </div>
             </div>
 
         </div>
+    </section>
+
+    <section class="footer-area bg-gold">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-md-5 mb-5">
+            <div class="footer-left">
+              <img src="assets/aii logo/aii logo.png">
+
+              <div class=" mt-5">
+                <div class="quote-container">
+                  <blockquote class=" py-4">
+                    <p class="f-gt c-black">
+                      Lorem ipsum dolor sit amet consectetur adipisicing 
+                      elit. Blanditiis illum quae, ullam, sint ab exercitationem 
+                      quos consectetur ipsa aspernatur, expedita praesentium labore 
+                      dolore illo suscipit.
+                    </p>
+                  </blockquote>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 pr-5">            
+            <h5>Company</h5>
+            <div class="mt-3">
+              <h6>
+                86, Atiku Abubakar Way, Uyo,
+                Akwa-Ibom, Nigeria.
+              </h6>
+              <p>contact@aiiburtel.com</p>
+              <p>+(234)8088884983</p>
+
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-2 mb-5">
+            <h5>Sitemap</h5>
+            <div class="mt-2">
+              <ul class="navbar-nav ml-auto footer">
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#"> Products </a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#"> About Us </a>
+                </li>
+                  
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- jquery .js -->
