@@ -297,6 +297,104 @@
      
   </section>
 
+  <section class="why-us-area">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-md-6">
+                    <!-- title div -->
+                    <div class="heading d-flex align-items-center mb-2 pl-1">
+                      <div class="line"></div>
+                      <h3 > Why Us?</h3>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 ">
+                        <div class="media">
+                            <img src="assets/icons/delicate_team.png" class="align-self-center mr-3" alt="...">
+                            <div class="media-body pt-3">
+                              <h5 class="">Dedicated Team</h5>
+                              <p> Highly-skilled and technically capable workforce.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="media">
+                            <img src="assets/icons/update_technology.png" class="align-self-center mr-3" alt="...">
+                            <div class="media-body pt-4">
+                              <h5 class="">Updated Technology</h5>
+                              <p> Innovation is our watchword, Operate with trending techs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  ">
+                        <div class="media">
+                            <img src="assets/icons/delivery_time.png" class="align-self-center mr-3" alt="...">
+                            <div class="media-body pt-3">
+                              <h5 class="">Delivery on Time</h5>
+                              <p> We deliver successful projects for public and private.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="media">
+                            <img src="assets/icons/quality_assurance.png" class="align-self-center mr-3" alt="...">
+                            <div class="media-body pt-3">
+                              <h5 class="">Quality Assurace</h5>
+                              <p> We render first class services to our clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="heading mx-auto mb-2 ">
+                      <h3>Get Started</h3>
+                    </div>
+
+                    <form class=""> 
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <input type="text" class="form-control bg-light" placeholder=" Firstname, Surname*">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <input type="text" Class="form-control bg-light" placeholder="Company Name*">
+                          </div>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <input type="email" class="form-control bg-light" placeholder=" Email Address*">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <input type="tel" Class="form-control bg-light" placeholder=" Phone Number*">
+                          </div>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <select class="custom-select bg-light" >
+                              <option selected> Project Category*</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <input type="text" Class="form-control bg-light" placeholder=" Project Budget*">
+                          </div>
+                        </div>
+
+                        <textarea class="form-control bg-light" placeholder="Project Description*" name="" id="" cols="30" rows="8"></textarea>
+                    </form> 
+                    <div class="my-4"> 
+                      <a href="" class="cta-btn ">
+                        Bring Idea To Life
+                      </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- jquery .js -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slick.min.js"></script>
