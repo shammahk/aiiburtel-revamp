@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <!-- main css file  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/aii logo/aii logo.png" type="image/x-icon">
     <title> Aiiburtel revamping</title>
 </head>
 
@@ -43,6 +44,8 @@
     </div>
   </section>
 
+  <!-- Quote -->
+
   <section class="quote-area my-5">
       <div class="row justify-content-center m-0">
         <div class="col-md-9 col-lg-7">
@@ -63,6 +66,8 @@
         </div>
       </div>       
   </section>
+
+  <!-- Services -->
 
   <section class="py-5">
       <div class="row m-0 bg-light-half">
@@ -134,6 +139,8 @@
           
       </div>
   </section>
+
+  <!-- Products -->
 
   <section class=" py-5">
       <div class="row m-0  bg-light-half ">
@@ -234,6 +241,8 @@
      
   </section>
 
+  <!-- Carousel -->
+
   <section class="py-5">
       <div class=" bg-light ">
         <div class="heading d-flex align-items-center mb-5 ">
@@ -297,168 +306,115 @@
      
   </section>
 
+  <!-- Form -->
   <section class="why-us-area">
-        <div class="container">
-            <div class="row m-0">
-                <div class="col-md-6">
-                    <!-- title div -->
-                    <div class="heading d-flex align-items-center mb-2 pl-1">
-                      <div class="line"></div>
-                      <h3 > Why Us?</h3>
-                    </div>
-                    <!--  -->
-                    <div class="col-12 px-0 ">
-                        <div class="media">
-                            <img src="assets/icons/delicate_team.png" class="align-self-center mr-3" alt="...">
-                            <div class="media-body pt-3">
-                              <h5 class="">Dedicated Team</h5>
-                              <p> Highly-skilled and technically capable workforce.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 px-0 ">
-                        <div class="media">
-                            <img src="assets/icons/update_technology.png" class="align-self-center mr-3" alt="...">
-                            <div class="media-body pt-4">
-                              <h5 class="">Updated Technology</h5>
-                              <p> Innovation is our watchword, Operate with trending techs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 px-0  ">
-                        <div class="media">
-                            <img src="assets/icons/delivery_time.png" class="align-self-center mr-3" alt="...">
-                            <div class="media-body pt-3">
-                              <h5 class="">Delivery on Time</h5>
-                              <p> We deliver successful projects for public and private.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 px-0 ">
-                        <div class="media">
-                            <img src="assets/icons/quality_assurance.png" class="align-self-center mr-3" alt="...">
-                            <div class="media-body pt-3">
-                              <h5 class="">Quality Assurace</h5>
-                              <p> We render first class services to our clients.</p>
-                            </div>
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-md-6">
+                <!-- title div -->
+                <div class="heading d-flex align-items-center mb-2 pl-1">
+                  <div class="line"></div>
+                  <h3 > Why Us?</h3>
+                </div>
+                <!--  -->
+                <div class="col-12 px-0 ">
+                    <div class="media">
+                        <img src="assets/icons/delicate_team.png" class="align-self-center mr-3" alt="...">
+                        <div class="media-body pt-3">
+                          <h5 class="">Dedicated Team</h5>
+                          <p> Highly-skilled and technically capable workforce.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="heading mx-auto mb-2 ">
-                      <h3>Get Started</h3>
+                <div class="col-12 px-0 ">
+                    <div class="media">
+                        <img src="assets/icons/update_technology.png" class="align-self-center mr-3" alt="...">
+                        <div class="media-body pt-4">
+                          <h5 class="">Updated Technology</h5>
+                          <p> Innovation is our watchword, Operate with trending techs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 px-0  ">
+                    <div class="media">
+                        <img src="assets/icons/delivery_time.png" class="align-self-center mr-3" alt="...">
+                        <div class="media-body pt-3">
+                          <h5 class="">Delivery on Time</h5>
+                          <p> We deliver successful projects for public and private.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 px-0 ">
+                    <div class="media">
+                        <img src="assets/icons/quality_assurance.png" class="align-self-center mr-3" alt="...">
+                        <div class="media-body pt-3">
+                          <h5 class="">Quality Assurace</h5>
+                          <p> We render first class services to our clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="heading mx-auto mb-2 px-0">
+                  <h3>Get Started</h3>
+                </div>
+
+                <form class=""> 
+                    <div class="form-row">
+                      <div class="form-group col-lg-6">
+                        <input type="text" name="fname" class="form-control bg-light" required placeholder=" Firstname, Surname*">
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="text" name="cname" Class="form-control bg-light" required placeholder="Company Name*">
+                      </div>
                     </div>
 
-                    <form class=""> 
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <input type="text" class="form-control bg-light" placeholder=" Firstname, Surname*">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <input type="text" Class="form-control bg-light" placeholder="Company Name*">
-                          </div>
-                        </div>
+                    <div class="form-row">
+                      <div class="form-group col-lg-6">
+                        <input type="email" name="email" class="form-control bg-light" required placeholder=" Email Address*">
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="tel" name="phone" Class="form-control bg-light" required placeholder=" Phone Number*">
+                      </div>
+                    </div>
 
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <input type="email" class="form-control bg-light" placeholder=" Email Address*">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <input type="tel" Class="form-control bg-light" placeholder=" Phone Number*">
-                          </div>
-                        </div>
+                    <div class="form-row">
+                      <div class="form-group col-lg-6">
+                        <select name="category" class="custom-select bg-light h-100" required>
+                          <option selected disabled value=""> Project Category*</option>
+                          <option value="automation">System Automation</option>
+                          <option value="machine-learning">Machine Learning</option>
+                          <option value="ai">Artificial Intelligence</option>
+                          <option value="web">Web Development</option>
+                          <option value="app">App Development</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-lg-6">
+                        <input type="number" name="budget" class="form-control bg-light" required placeholder=" Project Budget in Dollar*">
+                      </div>
+                    </div>
 
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <select class="custom-select bg-light" >
-                              <option selected> Project Category*</option>
-                              <option value="1">One</option>
-                              <option value="2">Two</option>
-                              <option value="3">Three</option>
-                            </select>
-                          </div>
-                          <div class="form-group col-md-6">
-                            <input type="text" Class="form-control bg-light" placeholder=" Project Budget*">
-                          </div>
-                        </div>
-
-                        <textarea class="form-control bg-light" placeholder="Project Description*" name="" id="" cols="30" rows="8"></textarea>
-                    </form> 
+                    <textarea name="description" class="form-control bg-light" required placeholder="Project Description* " name="" id="" cols="30" rows="6"></textarea>
                     <div class="my-4 d-flex justify-content-center"> 
-                      <a href="" class="cta-btn ">
+                      <button type="submit" class="cta-btn ">
                         Get Quote
-                      </a>
+                      </button>
                     </div>
-                </div>
+                </form> 
             </div>
-
         </div>
-    </section>
 
-    <section class="footer-area bg-gold">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-md-5 mb-5">
-            <div class="footer-left">
-              <img src="assets/aii logo/aii logo.png">
+    </div>
+  </section>
 
-              <div class=" mt-5">
-                <div class="quote-container">
-                  <blockquote class=" py-4">
-                    <p class="f-gt c-black">
-                      Lorem ipsum dolor sit amet consectetur adipisicing 
-                      elit. Blanditiis illum quae, ullam, sint ab exercitationem 
-                      quos consectetur ipsa aspernatur, expedita praesentium labore 
-                      dolore illo suscipit.
-                    </p>
-                  </blockquote>  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-5 pr-5">            
-            <h5>Company</h5>
-            <div class="mt-3">
-              <h6>
-                86, Atiku Abubakar Way, Uyo,
-                Akwa-Ibom, Nigeria.
-              </h6>
-              <p>contact@aiiburtel.com</p>
-              <p>+(234)8088884983</p>
-
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-2 mb-5">
-            <h5>Sitemap</h5>
-            <div class="mt-2">
-              <ul class="navbar-nav ml-auto footer">
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Home </a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#"> Products </a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="#"> About Us </a>
-                </li>
-                  
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- jquery .js -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <!-- bootstrap .js -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+   
+  <?php include "include/footer.html"?>
+  <!-- jquery .js -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <!-- bootstrap .js -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

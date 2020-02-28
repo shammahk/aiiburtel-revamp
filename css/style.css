@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 /* Fonts */
@@ -130,6 +131,44 @@ h3 {
 
 
 /* components */
+button {
+  outline: none;
+  border: none;
+}
+
+.form-control {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0;
+  border-color: transparent;
+}
+
+.custom-select {
+  border-color: transparent;
+  border-radius: 0;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  color: #333333;
+  background-color: #7070703D !important;
+  border-color: #EDBA3A;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(237, 186, 58, 0.5);
+}
+
+
+a.link {
+  color: #333333;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+a.link:hover {
+  text-decoration: none;
+  color: #555555;
+}
+
 
 .cta-btn {
   background: #333333;
@@ -160,16 +199,17 @@ header .cta-btn {
   color: #FFFFFF;
 }
 
+.nav-item a.nav-link:hover {
+  color: #EDBA3A;
+}
+
 .footer .nav-item a.nav-link {
   color: #333333 ;
 }
 
 .footer .nav-item a.nav-link:hover {
-  color: #ffffff ;
-}
-
-.nav-item a.nav-link:hover {
-  color: #EDBA3A;
+  color: #666666;
+  ;
 }
 
 .heading {
@@ -285,16 +325,41 @@ header .nav-item a.nav-link:hover:after {
 }
 
 .quote blockquote p:before {
-  content: url("../assets/quote\ sign.png");
-  color: #c9c9c9;
+  content: url("../assets/icons/quote\ sign.png");
+  /* color: #c9c9c9; */
   position: absolute;
   top: -1em;
   left: -1em;
-  bottom: -.2em;    
-  text-shadow: none;
   z-index: -300;
 
 }
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+footer .quote blockquote {
+  border: none;
+}
+
+footer .quote blockquote p {
+  position: relative;
+  z-index: 200;
+}
+
+footer .quote blockquote p:before {
+  content: none;
+}
+
+footer .quote blockquote:before {
+  content: url("../assets/icons/quote\ sign.png");
+  position: absolute;
+  top: -1.5em;
+  left: -2.5em;
+  z-index: 10;
+}
+
+
 
 .title h3 {
   overflow :hidden;
@@ -343,6 +408,44 @@ content: "";
 /* Media Queries */
 /* Mobile */
 @media (max-width: 450px) {
+  header {
+    background: #FFFFFF;
+  }
+
+  .nav-item {
+    /* width: fit-content; */
+  }
+
+  .nav-item a.nav-link {
+    color: #333333;
+  }
+
+  button {
+    outline: none !important;
+  }
+
+  #navHeader div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-area{
+    background: url('../assets/icons/hero\ bg.png');
+    background-size: 100% 100% ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .hero-area h1,
+  .hero-area p.sales {
+    color: #FFFFFF;
+  }
+
+  h1 {
+    font-size: 3.2em;
+  }
+
   .heading {
     width: fit-content;
     background: #ffffff;
@@ -362,6 +465,47 @@ content: "";
     width: 25px;
     background: #EDBA3A;
     margin-right: 20px;
+  }
+
+  .footer-left {
+    border: none;
+
+  }
+}
+
+@media (min-width: 700px) and (max-width:1000px) {
+  header {
+    background: #FFFFFF;
+  }
+
+  .nav-item {
+    /* width: fit-content; */
+  }
+
+  .nav-item a.nav-link {
+    color: #333333;
+  }
+
+  button {
+    outline: none !important;
+  }
+
+  #navHeader div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-area{
+    background: url('../assets/icons/hero\ bg.png');
+    background-size: 100% 100% ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .hero-area h1,
+  .hero-area p.sales {
+    color: #FFFFFF;
   }
 }
 
