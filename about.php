@@ -15,15 +15,16 @@
 <body>
   <div id="top"></div>
   <?php include "include/header.html"?>
-  <section class="about-hero">
-    <div class="container">
-      <div class="row m-0">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
-          <img src="assets/hero-img/hero-img.png" class="img-fluid" width=""  alt="">
-        </div>
-      </div>
-    </div>
+
+  <section>
+      <div class="row">
+          <div class="col-md-6">
+            <h2>WE ARE YOUR NUMBER ONE BUSINESS PARTNER</h2>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/hero-img/hero-img.png" class="img-fluid" width=""  alt="">
+          </div>
+      </div>   
   </section>
 
     <!-- jquery .js -->
