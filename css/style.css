@@ -253,6 +253,10 @@ body:not(#index) header {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
 }
 
+body:not(#index) header {
+  background: white;
+}
+
 header.scrolled .nav-item a.nav-link,
 body:not(#index) header .nav-item a.nav-link{
   color: #333333;
