@@ -308,6 +308,7 @@ header.scrolled .nav-item a.nav-link:hover,
   color: #EDBA3A;
 }
 
+
 header .nav-item a.nav-link:after {    
   background: #EDBA3A;
   bottom: 0;
