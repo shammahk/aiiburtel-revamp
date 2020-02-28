@@ -292,16 +292,19 @@ header {
   transition: all 0.3s ease;
 }
 
-header.scrolled {
+header.scrolled,
+:not(#index) header {
   background: white;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
 }
 
-header.scrolled .nav-item a.nav-link {
+header.scrolled .nav-item a.nav-link,
+:not(#index) header .nav-item a.nav-link{
   color: #333333;
 }
 
-header.scrolled .nav-item a.nav-link:hover {
+header.scrolled .nav-item a.nav-link:hover,
+:not(#index) header .nav-item a.nav-link:hover{
   color: #EDBA3A;
 }
 

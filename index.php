@@ -16,7 +16,7 @@
     <title> Aiiburtel revamping</title>
 </head>
 
-<body>
+<body id="index">
   <div id="top"></div>
   <?php include "include/header.html"?>
   
@@ -360,7 +360,7 @@
                   <h3>Get Started</h3>
                 </div>
 
-                <form class="" method="POST" action="#"> 
+                <form class="" method="POST" action="contact.php"> 
                     <div class="form-row">
                       <div class="form-group col-lg-6">
                         <input type="text" name="fname" class="form-control bg-light" required placeholder=" Firstname, Surname*">
