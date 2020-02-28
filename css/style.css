@@ -129,8 +129,22 @@ h3 {
   font-size: 1.5em;
 }
 
+.xs-text {
+  font-size: 0.8em;
+}
+
 
 /* components */
+.iconify {
+  height: 24px;
+  width: 24px;
+}
+
+.socials a:hover .iconify{
+  color: #ffffff ;
+  transform: scale(1.1);
+}
+
 button {
   outline: none;
   border: none;
@@ -345,6 +359,7 @@ footer .quote blockquote {
 footer .quote blockquote p {
   position: relative;
   z-index: 200;
+  font-size: 1.15em;
 }
 
 footer .quote blockquote p:before {

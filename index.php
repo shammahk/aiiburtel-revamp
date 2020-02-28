@@ -9,6 +9,7 @@
     <!-- Slick css -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
     <!-- main css file  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="shortcut icon" href="assets/aii logo/aii logo.png" type="image/x-icon">
@@ -359,7 +360,7 @@
                   <h3>Get Started</h3>
                 </div>
 
-                <form class=""> 
+                <form class="" method="POST" action="#"> 
                     <div class="form-row">
                       <div class="form-group col-lg-6">
                         <input type="text" name="fname" class="form-control bg-light" required placeholder=" Firstname, Surname*">
@@ -381,7 +382,7 @@
                     <div class="form-row">
                       <div class="form-group col-lg-6">
                         <select name="category" class="custom-select bg-light h-100" required>
-                          <option selected disabled value=""> Project Category*</option>
+                          <option selected disabled value=""> --Project Category--*</option>
                           <option value="automation">System Automation</option>
                           <option value="machine-learning">Machine Learning</option>
                           <option value="ai">Artificial Intelligence</option>
@@ -390,14 +391,21 @@
                         </select>
                       </div>
                       <div class="form-group col-lg-6">
-                        <input type="number" name="budget" class="form-control bg-light" required placeholder=" Project Budget in Dollar*">
+                        <select name="budget" class="custom-select bg-light h-100" required>
+                          <option selected disabled value=""> --Project Budget--*</option>
+                          <option value="less_than_100k">less than 	&#8358;100,000</option>
+                          <option value="100k_to_500k">	&#8358;100,000 to 	&#8358;500,000</option>
+                          <option value="500k_to_1m">&#8358;500,000 to &#8358;1million</option>
+                          <option value="1m_to_5m">&#8358;1million to &#8358;5million</option>
+                          <option value="greater_than_5m">more than &#8358;5million</option>
+                        </select>
                       </div>
                     </div>
 
                     <textarea name="description" class="form-control bg-light" required placeholder="Project Description* " name="" id="" cols="30" rows="6"></textarea>
                     <div class="my-4 d-flex justify-content-center"> 
                       <button type="submit" class="cta-btn ">
-                        Get Quote
+                        Get A Quote
                       </button>
                     </div>
                 </form> 
