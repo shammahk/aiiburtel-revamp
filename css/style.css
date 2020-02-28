@@ -247,8 +247,7 @@ header {
   transition: all 0.3s ease;
 }
 
-header.scrolled,
-body:not(#index) header {
+header.scrolled {
   background: white;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
 }
