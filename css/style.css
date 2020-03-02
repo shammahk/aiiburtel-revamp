@@ -137,8 +137,72 @@ h3 {
   font-size: 1.5em;
 }
 
+.xs-text {
+  font-size: 0.8em;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
 
 /* components */
+.team-card img {
+  height: 300px !important;
+}
+
+.iconify {
+  height: 24px;
+  width: 24px;
+}
+
+.socials a:hover .iconify{
+  color: #ffffff ;
+  transform: scale(1.1);
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.form-control {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0;
+  border-color: transparent;
+}
+
+.custom-select {
+  border-color: transparent;
+  border-radius: 0;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  color: #333333;
+  background-color: #7070703D !important;
+  border-color: #EDBA3A;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(237, 186, 58, 0.5);
+}
+
+
+a.link {
+  color: #333333;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+a.link:hover {
+  text-decoration: none;
+  color: #555555;
+}
+
 
 .cta-btn {
   background: #333333;
@@ -291,6 +355,14 @@ header .nav-item a.nav-link:hover:after {
   min-height: 80vh;
 }
 
+.about-hero-area{
+  background: url('../assets/images/hero-img.png');
+  background-size: 45% 100% ;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
 .quote blockquote {
   position: relative;
   border-left: 3px solid #EDBA3A;
@@ -383,6 +455,59 @@ content: "";
     width: 25px;
     background: #EDBA3A;
     margin-right: 20px;
+  }
+
+  .footer-left {
+    border: none;
+
+  }
+
+  .about-hero-area{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.9)),  url('../assets/images/hero-img.png');
+    background-size: 100% 100% ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .about-hero-area h1 {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 700px) and (max-width:1000px) {
+  header {
+    background: #FFFFFF;
+  }
+
+  .nav-item {
+    /* width: fit-content; */
+  }
+
+  .nav-item a.nav-link {
+    color: #333333;
+  }
+
+  button {
+    outline: none !important;
+  }
+
+  #navHeader div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-area{
+    background: url('../assets/icons/hero\ bg.png');
+    background-size: 100% 100% ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .hero-area h1,
+  .hero-area p.sales {
+    color: #FFFFFF;
   }
 }
 
