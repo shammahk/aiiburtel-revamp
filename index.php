@@ -34,7 +34,7 @@
                 repudiandae vel delectus.
               </p>
               <div>
-                <a href="" class="cta-btn ">
+                <a href="#contact" class="cta-btn ">
                   Bring Idea To Life
                 </a>
               </div>
@@ -88,7 +88,7 @@
                   <p class="mb-5">
                     Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
                   </p>
-                    <a href="" class="cta-btn ">
+                    <a href="#contact" class="cta-btn ">
                       Bring Idea To Life
                     </a>
                 </div>
@@ -104,7 +104,7 @@
                   <p class="mb-5">
                     Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
                   </p>
-                    <a href="" class="cta-btn ">
+                    <a href="#contact" class="cta-btn ">
                       Bring Idea To Life
                     </a>
                 </div>
@@ -120,7 +120,7 @@
                   <p class="mb-5">
                     Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
                   </p>
-                    <a href="" class="cta-btn">
+                    <a href="#contact" class="cta-btn">
                       Bring Idea To Life
                     </a>
                 </div>
@@ -129,7 +129,7 @@
               
               <div class="col-md-6 col-lg-12 mb-4 d-flex align-items-center justify-content-center">
                 <div class="d-flex justify-content-center mt-2">
-                  <a href="" class="pg-link">
+                  <a href="#contact" class="pg-link">
                     See All Sevices
                   </a>
                 </div>
@@ -160,8 +160,8 @@
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
               <div>
-                <a href="" class="cta-btn ">
-                  Bring Idea To Life
+                <a href="products" class="cta-btn ">
+                 See Full Brief
                 </a>
               </div>
             </div>
@@ -178,8 +178,8 @@
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
               <div>
-                <a href="" class="cta-btn ">
-                  Bring Idea To Life
+                <a href="products" class="cta-btn ">
+                 See Full Brief
                 </a>
               </div>
             </div>
@@ -202,8 +202,8 @@
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
               <div>
-                <a href="" class="cta-btn ">
-                  Bring Idea To Life
+                <a href="products" class="cta-btn ">
+                 See Full Brief
                 </a>
               </div>
             </div>
@@ -220,8 +220,8 @@
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
               <div>
-                <a href="" class="cta-btn ">
-                  Bring Idea To Life
+                <a href="products" class="cta-btn ">
+                 See Full Brief
                 </a>
               </div>
             </div>
@@ -230,7 +230,7 @@
 
           <div class="col-md-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
             <div class="d-flex justify-content-center mt-2">
-              <a href="" class="pg-link">
+              <a href="products" class="pg-link">
                 See Full Products Catalog
               </a>
             </div>

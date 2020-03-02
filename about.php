@@ -29,7 +29,7 @@
                 we are your number one business partner
               </h1>
               <div class="mt-5">
-                <a href="" class="cta-btn ">
+                <a href="index#contact" class="cta-btn ">
                   Bring Idea To Life
                 </a>
               </div>
@@ -69,14 +69,14 @@
         <div class="col-12 row  d-flex justify-content-center my-3 px-0">
           <div class="col-sm-12 col-md-6 col-lg-4 mb-4 px-0 d-flex align-items-center justify-content-center">
             <div class="d-flex justify-content-center mt-2">
-              <a href="" class="pg-link">
+              <a href="services" class="pg-link">
                 See All Sevices
               </a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
             <div class="d-flex justify-content-center mt-2">
-              <a href="" class="pg-link">
+              <a href="products" class="pg-link">
                 See Full Products Catalog
               </a>
             </div>
@@ -87,9 +87,9 @@
 
   <!-- Our Values -->
 
-  <section class="pt-5">
+  <section class="pt-5 ">
       <div class=" bg-light pb-5">
-        <div class="heading d-flex align-items-center mb-5 ">
+        <div class="heading d-flex align-items-center mb-5 py-3">
             <div class="line"></div>
             <h3 >Our Values</h3>
         </div>
