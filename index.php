@@ -23,9 +23,9 @@
   <section class="hero-area mb-5 d-flex align-items-end">
     <div class="container pb-5">
       <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12 p-0 d-flex flex-column">
+          <div class="col-lg-6 col-md-11 col-sm-12 p-0 d-flex flex-column">
             <div class=" col-lg-11">
-              <h1 class="mt-5 f-gt">
+              <h1 class="mt-5 f-gt text-uppercase">
                 Lorem ipsum dolor.
               </h1>
               <p class="sales mb-5">
@@ -355,7 +355,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div id="contact" class="col-md-6">
                 <div class="heading mx-auto mb-2 px-0">
                   <h3>Get Started</h3>
                 </div>

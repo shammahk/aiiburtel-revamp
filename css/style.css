@@ -142,8 +142,20 @@ h3 {
   font-size: 0.8em;
 }
 
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
 
 /* components */
+.team-card img {
+  height: 300px !important;
+}
+
 .iconify {
   height: 24px;
   width: 24px;
@@ -345,6 +357,14 @@ header .nav-item a.nav-link:hover:after {
   min-height: 80vh;
 }
 
+.about-hero-area{
+  background: url('../assets/images/hero-img.png');
+  background-size: 45% 100% ;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
 .quote blockquote {
   position: relative;
   border-left: 3px solid #EDBA3A;
@@ -501,6 +521,18 @@ content: "";
   .footer-left {
     border: none;
 
+  }
+
+  .about-hero-area{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.9)),  url('../assets/images/hero-img.png');
+    background-size: 100% 100% ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+  }
+
+  .about-hero-area h1 {
+    color: #ffffff;
   }
 }
 
