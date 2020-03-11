@@ -13,7 +13,7 @@
     <!-- main css file  -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="shortcut icon" href="assets/aii logo/aii logo.png" type="image/x-icon">
-    <title> Aiiburtel revamping</title>
+    <title> Aiiburtel Limited </title>
 </head>
 
 <body id="index">
@@ -26,16 +26,14 @@
           <div class="col-lg-6 col-md-11 col-sm-12 p-0 d-flex flex-column">
             <div class=" col-lg-11">
               <h1 class="mt-5 f-gt text-uppercase">
-                Lorem ipsum dolor.
+                STEP INTO THE FUTURE
               </h1>
               <p class="sales mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing 
-                elit. Qui, ipsum! Fugit corrupti aut, quasi, odio 
-                repudiandae vel delectus.
+                Aiiburtel Limited takes you into the future by equipping your business with tech that separates it from competitors.
               </p>
               <div>
                 <a href="#contact" class="cta-btn ">
-                  Bring Idea To Life
+                  Bring Ideas To Life
                 </a>
               </div>
             </div>
@@ -54,11 +52,10 @@
           <div class="quote mt-5">
               <div class="quote-container">
                   <blockquote class="pl-4 py-4">
-                    <p class="f-gt c-black">
-                     Lorem ipsum dolor sit amet consectetur adipisicing 
-                     elit. Blanditiis illum quae, ullam, sint ab exercitationem 
-                     quos consectetur ipsa aspernatur, expedita praesentium labore 
-                     dolore illo suscipit.
+                    <p class="f-gt c-black mb-0">
+                      Your ideas are important, but more important is how they are given life and applied.
+                      For that you need a team that understands the idea,
+                      carries it out professionally, adding creativity and experience to bring your idea to life with EXCELLENCE.
                     </p>
                   </blockquote>  
               </div>
@@ -81,55 +78,68 @@
             <div class="row mx-0 justify-content-center">
               <div class="col-md-6 col-lg-3 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
-                  <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
-                  <h5 class="title mb-3">
-                    System Automation
-                  </h5>
-                  <p class="mb-5">
-                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                  </p>
+                  <div>
+                    <img src="./assets/icons/automation.svg" alt="System Automation" class="img-fluid icons mb-4 mt-3">
+                    <h5 class="title mb-3">
+                      System Automation
+                    </h5>
+                    <p class="mb-5">
+                      Complete integration with our system. Our system controls your production process offering optimized and efficient flow, reducing production cost and increasing profit.
+                    </p>
+                  </div>
+                  <div>
                     <a href="#contact" class="cta-btn ">
                       Bring Idea To Life
                     </a>
+
+                  </div>
                 </div>
   
               </div>
               
               <div class="col-md-6 col-lg-3 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
-                  <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
-                  <h5 class="title mb-3">
-                    Machine Learning
-                  </h5>
-                  <p class="mb-5">
-                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                  </p>
+                  <div>
+                    <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
+                    <h5 class="title mb-3">
+                      Machine Learning
+                    </h5>
+                    <p class="mb-5">
+                      Our Machine Learning Experts are well versed in building and training algorithms tailored to the system in use. Our maintenance policy is customer incentive.
+                    </p>
+                  </div>
+                  <div>
                     <a href="#contact" class="cta-btn ">
                       Bring Idea To Life
                     </a>
+                  </div>
                 </div>
   
               </div>
               
               <div class="col-md-6 col-lg-3 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
-                  <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
-                  <h5 class="title mb-3">
-                    Artificial Intelligence
-                  </h5>
-                  <p class="mb-5">
-                    Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                  </p>
+                  <div>
+                    <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
+                    <h5 class="title mb-3">
+                      Artificial Intelligence
+                    </h5>
+                    <p class="mb-5">
+                      Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                    </p>
+                  </div>
+                  <div>
                     <a href="#contact" class="cta-btn">
                       Bring Idea To Life
                     </a>
+                  </div>
                 </div>
   
               </div>
               
               <div class="col-md-6 col-lg-12 mb-4 d-flex align-items-center justify-content-center">
                 <div class="d-flex justify-content-center mt-2">
-                  <a href="#contact" class="pg-link">
+                  <a href="services" class="pg-link">
                     See All Sevices
                   </a>
                 </div>
@@ -153,9 +163,9 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class=" service-card product bg-white d-flex flex-column justify-content-end pt-5 pb-5 px-4">
              
-              <h5 class="title  mb-3">
+              <h4 class="title  mb-3">
                 System Automation
-              </h5>
+              </h4>
               <p class="mb-5">
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
@@ -171,9 +181,9 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class=" service-card product bg-white   pt-5 pb-5 px-4">
               
-              <h5 class="title mb-3">
+              <h4 class="title mb-3">
                 System Automation
-              </h5>
+              </h4>
               <p class="mb-5">
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
@@ -195,9 +205,9 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class=" service-card product bg-white d-flex flex-column justify-content-end pt-5 pb-5 px-4">
               
-              <h5 class="title mb-3">
+              <h4 class="title mb-3">
                 System Automation
-              </h5>
+              </h4>
               <p class="mb-5">
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
@@ -213,9 +223,9 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class=" service-card product bg-white pt-5 pb-5 px-4">
               
-              <h5 class="title mb-3">
+              <h4 class="title mb-3">
                 System Automation
-              </h5>
+              </h4>
               <p class="mb-5">
                 Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
               </p>
