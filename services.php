@@ -65,7 +65,7 @@
                   <div>
                     <img src="./assets/icons/machine-learning.svg" alt="machine-learning" class="img-fluid icons mb-4 mt-3">
                     <h5 class="title mb-3">
-                      Machine Learning
+                      Machine Learning/AI
                     </h5>
                     <p class="mb-5">
                       Our Machine Learning Experts are well versed in building and training algorithms tailored to the system in use. Our maintenance policy is customer incentive.
@@ -84,12 +84,14 @@
               <div class="col-md-6 col-lg-4 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
                   <div>
-                    <img src="./assets/icons/artificial-intelligence.svg" alt="artificial-intelligence" class="img-fluid icons mb-4 mt-3">
+                    <img src="./assets/icons/data.svg" alt="artificial-intelligence" class="img-fluid icons mb-4 mt-3">
                     <h5 class="title mb-3">
-                      Artificial Intelligence
+                      Data Analytics
                     </h5>
                     <p class="mb-5">
-                      Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                      We reveal trends and metrics 
+                      that help you make informed decisions that benefit your
+                      business to make profit.
                     </p>
                   </div>
                   <div>
@@ -129,7 +131,9 @@
                       Mobile App Development
                     </h5>
                     <p class="mb-5">
-                      Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                      We provide iOS and Android Apps for every type of product.
+                      A worldclass idea deserves a worldclass App. We apply our
+                      expertise to give you what your idea needs.
                     </p>
                   </div>
                   <div>
@@ -149,7 +153,10 @@
                       Robotics
                     </h5>
                     <p class="mb-5">
-                      Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                      Our services cover all phases of the project life cycle 
+                      from concept to completion: design, development, manufacture, 
+                      establishment and technical assistance, as well as project 
+                      management.
                     </p>
                   </div>
                   <div>

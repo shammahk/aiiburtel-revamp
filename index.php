@@ -54,7 +54,7 @@
                   <blockquote class="pl-4 py-4">
                     <p class="f-gt c-black mb-0">
                       Your ideas are important, but more important is how they are given life and applied.
-                      For that you need a team that understands the idea,
+                      For that, you need a team that understands the idea,
                       carries it out professionally, adding creativity and experience to bring your idea to life with EXCELLENCE.
                     </p>
                   </blockquote>  
@@ -100,12 +100,16 @@
               <div class="col-md-6 col-lg-3 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
                   <div>
-                    <img src="./assets/icons/machine-learning.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
+                    <img src="./assets/icons/data.svg" alt="Machine Learning" class="img-fluid icons mb-4 mt-3">
                     <h5 class="title mb-3">
-                      Machine Learning
+                      Data Analytics
                     </h5>
                     <p class="mb-5">
-                      Our Machine Learning Experts are well versed in building and training algorithms tailored to the system in use. Our maintenance policy is customer incentive.
+                      Analyzing raw data in order to make conclusions about 
+                      that information.
+                      We reveal trends and metrics 
+                      that help you make informed decisions that benefit your
+                      business to make profit.
                     </p>
                   </div>
                   <div>
@@ -120,12 +124,12 @@
               <div class="col-md-6 col-lg-3 mb-4">
                 <div class=" service-card bg-white pt-5 pb-5 px-4">
                   <div>
-                    <img src="./assets/icons/artificial-intelligence.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
+                    <img src="./assets/icons/machine-learning.svg" alt="Artificial Intelligence" class="img-fluid icons mb-4 mt-3">
                     <h5 class="title mb-3">
-                      Artificial Intelligence
+                      Machine Learning/AI
                     </h5>
                     <p class="mb-5">
-                      Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                    Our Machine Learning Experts are well versed in building and training algorithms tailored to the system in use. Our maintenance policy is customer incentive.
                     </p>
                   </div>
                   <div>
@@ -373,10 +377,10 @@
                 <form class="" method="POST" action="contact.php"> 
                     <div class="form-row">
                       <div class="form-group col-lg-6">
-                        <input type="text" name="fname" class="form-control bg-light" required placeholder=" Firstname, Surname*">
+                        <input type="text" name="fullname" class="form-control bg-light" required placeholder=" Firstname, Surname*">
                       </div>
                       <div class="form-group col-lg-6">
-                        <input type="text" name="cname" Class="form-control bg-light" required placeholder="Company Name*">
+                        <input type="text" name="company" Class="form-control bg-light" required placeholder="Company Name*">
                       </div>
                     </div>
 

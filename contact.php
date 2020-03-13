@@ -1,58 +1,48 @@
 <?php
- 
-if($_POST) {
-    $visitor_name = "";
-    $visitor_email = "";
-    $email_title = "";
-    $concerned_department = "";
-    $visitor_message = "";
-     
-    if(isset($_POST['visitor_name'])) {
-        $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
-    }
-     
-    if(isset($_POST['visitor_email'])) {
-        $visitor_email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visitor_email']);
-        $visitor_email = filter_var($visitor_email, FILTER_VALIDATE_EMAIL);
-    }
-     
-    if(isset($_POST['email_title'])) {
-        $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
-    }
-     
-    if(isset($_POST['concerned_department'])) {
-        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
-    }
-     
-    if(isset($_POST['visitor_message'])) {
-        $visitor_message = htmlspecialchars($_POST['visitor_message']);
-    }
-     
-    if($concerned_department == "billing") {
-        $recipient = "billing@domain.com";
-    }
-    else if($concerned_department == "marketing") {
-        $recipient = "marketing@domain.com";
-    }
-    else if($concerned_department == "technical support") {
-        $recipient = "tech.support@domain.com";
-    }
-    else {
-        $recipient = "shammahk1@gmail.com";
-    }
-     
-    $headers  = 'MIME-Version: 1.0' . "\r\n"
-    .'Content-type: text/html; charset=utf-8' . "\r\n"
-    .'From: ' . $visitor_email . "\r\n";
-     
-    if(mail($recipient, $email_title, $visitor_message, $headers)) {
-        echo "<p>Thank you for contacting us, $visitor_name. You will get a reply within 24 hours.</p>";
+    $from_name = $_POST['fullname'];
+    $company = $_POST['company'];
+    $from_mail =  $_POST['email'];
+    $replyto = $_POST['email'];
+    $budget = $_POST['budget'];
+    $phone = $_POST['phone'];
+    $message =  $_POST['description'];
+    $subject = $_POST['category']." Request";
+    $mailto = "contact@chigisoft.com";
+    // $mailto = "providcneifeosame@gmail.com";
+    $data = [];
+    $uid = md5(uniqid(time()));
+    // header
+    $header = "From: ".$from_name." <".$from_mail.">\r\n";
+    $header .= "Reply-To: ".$replyto."\r\n";
+    $header .= "MIME-Version: 1.0\r\n";
+    $header .= "Content-Type: text/html; boundary=\"".$uid."\"\r\n\r\n";
+
+    // message & attachment
+    $nmessage = "";
+    $nmessage .= $message."<br><br><br>";
+    $nmessage .= "Full Name: ".$from_name."<br><br>";
+    $nmessage .= "Phone: ".$phone."<br><br>";
+    $nmessage .= "E-Mail: ".$from_mail."<br><br>";
+    $nmessage .= "Project Type: ".$project_type."<br><br>";
+    $nmessage .= "Country: ".$country."<br><br>";
+    $nmessage .= "Company: ".$company."<br><br>";
+    $nmessage .= "Send Me Updates: ".$send_me."<br><br>";
+
+    if (mail($mailto, $subject, $nmessage, $header)) {
+    $mailto = $_POST['email'];
+    $subject = "Aiiburtel Reponse";
+    $nmessage = "Dear, ".$from_name.". Thank you for sending us a proposal, we have received your message and we'll get back to you.";
+    if(mail($mailto, $subject, $nmessage, $header)){
+        echo 'true';
+        return;
+    }else {
+        echo 'false';
+        return;
+    }   
     } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
+    echo 'false';
+    return;
     }
-     
-} else {
-    echo '<p>Something went wrong</p>';
-}
- 
+
+
 ?>
