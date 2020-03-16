@@ -30,7 +30,7 @@
 
   <!-- Products -->
 
-  <section class=" py-5">
+  <section class=" py-5 products">
       <div class="row m-0 flex-column">
         <div class="heading d-flex align-items-center mb-3 mx-auto">
             <div class="line"></div>
@@ -39,109 +39,106 @@
         <div class="container mx-auto">
           <div class="row mx-0">
 
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
+            <div class="col-md-6 col-lg-4 mb-5 d-flex flex-column justify-content-between">
+              <div>
+                <div class="bg-white mb-3">
+                  <img src="assets/images/GoSource Mockup.jpg" alt="" class="img-fluid">
+                </div>
+                  <h5 class="title mb-3">
+                    gosource.ng
+                  </h5>
+                  <p class="mb-3">
+                    Online importation, exportation and investment platform. 
+                  </p>
+
               </div>
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
+                <div class=" d-flex">
+                  <a href="https://gosource.ng/index.php" class="cta-btn ">
+                    View Product Live
                   </a>
                 </div>
   
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
-              </div>
+            <div class="col-md-6 col-lg-4 mb-5 d-flex flex-column justify-content-between">
+              <div>
+                <div class="bg-white mb-3">
+                  <a href="https://www.goshop.ng">
+                    <img src="assets/images/goshop.jpg" alt="" class="img-fluid">
+                  </a>
+                </div>
                 <h5 class="title mb-3">
-                  System Automation
+                  goshop.ng
                 </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                <p class="mb-3">
+                  Online shopping platform.
                 </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
+
+              </div>
+                        
+                <div class="d-flex">
+                  <a href="https://www.goshop.ng/" class="cta-btn ">
+                    View Product Live
                   </a>
                 </div>
   
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
+            <div class="col-md-6 col-lg-4 mb-5 d-flex flex-column justify-content-between">
+              <div>
+                <div class="bg-white mb-3">
+                  <img src="assets/images/event-venue.jpg" alt="" class="img-fluid">
+                </div>
+                  <h5 class="title mb-3">
+                    eventvenue.ng
+                  </h5>
+                  <p class="mb-3">
+                    Event venue, vendor and catering service booking platform
+                  </p>
               </div>
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
+                <div class="d-flex">
+                  <a href="https://eventvenue.ng/" class="cta-btn ">
+                    View Product Live
                   </a>
                 </div>
   
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
+            <div class="col-md-6 col-lg-4 mb-5 d-flex flex-column justify-content-between">
+              <div>
+                <div class="bg-white mb-3">
+                  <img src="assets/images/centerPrices.jpg" alt="" class="img-fluid">
+                </div>
+                  <h5 class="title mb-3">
+                    centerprices
+                  </h5>
+                  <p class="mb-3">
+                    Online personal and domestic care products distribution platform.
+                  </p>
               </div>
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
+                <div class="d-flex">
+                  <a href="https://centerprices.com/" class="cta-btn ">
+                    View Product Live
                   </a>
                 </div>
   
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
-              </div>
-                <h5 class="title mb-3">
-                  System Automation
-                </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-                </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
-                  </a>
+            <div class="col-md-6 col-lg-4 mb-5 d-flex flex-column justify-content-between">
+              <div>
+                <div class="bg-white mb-3">
+                  <img src="assets/images/goexpress.jpg" alt="" class="img-fluid">
                 </div>
-  
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-5">
-              <div class="bg-white mb-3">
-                <img src="assets/images/hero-img.png" alt="" class="img-fluid">
-              </div>
                 <h5 class="title mb-3">
-                  System Automation
+                  goexpress.ng
                 </h5>
-                <p class="mb-5">
-                  Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
+                <p class="mb-3">
+                  Book your trips and hotels.
                 </p>
-                <div>
-                  <a href="index#contact" class="cta-btn ">
-                    Bring Idea To Life
+              </div>
+                <div class="d-flex">
+                  <a href="https://goexpress.ng/" class="cta-btn ">
+                    View Product Live
                   </a>
                 </div>
   

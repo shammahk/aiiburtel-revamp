@@ -157,7 +157,7 @@
 
   <!-- Products -->
 
-  <section class=" py-5">
+  <section class=" py-5 products">
       <div class="row m-0  bg-light-half ">
         <div class="heading d-flex align-items-center mb-5 ml-auto">
             <div class="line"></div>
@@ -165,14 +165,11 @@
         </div>
         <div class="container-fluid row mx-0 justify-content-center">
           <div class="col-md-6 col-lg-4 mb-4">
-            <div class=" service-card product bg-white d-flex flex-column justify-content-end pt-5 pb-5 px-4">
+            <div class=" service-card product go-source bg-white d-flex flex-column justify-content-between pt-4 pb-4 px-4 ">
              
               <h4 class="title  mb-3">
-                System Automation
+                gosource.ng
               </h4>
-              <p class="mb-5">
-                Bespoke Websites and Web Apps that are tailored to your individual needs. We listen to you and apply experience and expertise to creating a masterpiece you will be proud to call your own.
-              </p>
               <div>
                 <a href="products" class="cta-btn ">
                  See Full Brief

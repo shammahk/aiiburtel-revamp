@@ -235,7 +235,7 @@ header .cta-btn {
 }
 
 .nav-item a.nav-link:hover {
-  color: #EDBA3A;
+  color: #ffffff;
 }
 
 .footer .nav-item a.nav-link {
@@ -332,7 +332,7 @@ body:not(#index) header .nav-item a.nav-link{
 
 header.scrolled .nav-item a.nav-link:hover,
 body:not(#index) header .nav-item a.nav-link:hover{
-  color: #EDBA3A;
+  color: #333333;
 }
 
 
@@ -432,34 +432,31 @@ content: "";
 }
 
 /*product*/
+.products img {
+  height: 280px !important;
+  min-height: 280px !important;
+  max-height: 280px !important;
+}
+
 .product{
   background-image: url("../assets/icons/hero\ bg.png");
 }
 
-.product > p {
-  transition: .3s ease;
-  opacity: 0;
+.product.go-source {
+  background-image: url("../assets/images/GoSource\ Mockup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
-.product:hover > p {
-  opacity: 1;
-}
 
 .product > h4 {
   color: #FFFFFF;
   font-weight: bold;
 }
 
-.product:hover > h4 {
-  color: #333333;
-}
 
-.product:hover{
-  background-image: linear-gradient(to bottom, 
-  rgba(255,255,255,0.6), 
-  rgba(255,255,255,.6)
-  ),
-  url("../assets/icons/hero\ bg.png");
 }
 /* end product*/
 
