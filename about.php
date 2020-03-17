@@ -54,10 +54,9 @@
                 <div class="quote-container">
                     <blockquote class="pl-4 py-4">
                       <p class="f-gt c-black mb-0">
-                       Lorem ipsum dolor sit amet consectetur adipisicing 
-                       elit. Blanditiis illum quae, ullam, sint ab exercitationem 
-                       quos consectetur ipsa aspernatur, expedita praesentium labore 
-                       dolore illo suscipit.
+                       Your technology solutions partner offering you everything 
+                       your business needs to keep ahead of the competition in 
+                       this era and in the future.
                       </p>
                     </blockquote>  
                 </div>
@@ -87,7 +86,7 @@
 
   <!-- Our Values -->
 
-  <section class="pt-5 ">
+  <section class="pt-5 mb-4">
       <div class=" bg-light pb-5">
         <div class="heading d-flex align-items-center mb-5 py-3">
             <div class="line"></div>

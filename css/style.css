@@ -439,15 +439,26 @@ content: "";
 }
 
 .product{
-  background-image: url("../assets/icons/hero\ bg.png");
+  height: 310px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .product.go-source {
   background-image: url("../assets/images/GoSource\ Mockup.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
 
+.product.go-shop {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/images/goshop.jpg");
+}
+
+.product.event-venue {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url("../assets/images/event-venue.jpg");
+}
+
+.product.centerprices {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url("../assets/images/centerPrices.jpg");
 }
 
 
@@ -457,7 +468,6 @@ content: "";
 }
 
 
-}
 /* end product*/
 
 /* footer area*/
